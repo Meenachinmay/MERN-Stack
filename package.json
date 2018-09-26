@@ -1,0 +1,29 @@
+{
+  "name": "mern_stack",
+  "version": "1.0.0",
+  "description": "This is MERN stack demo built with reactjs and nodejs with express server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meenachinmay/MERN-Stack.git"
+  },
+  "author": "meenachinmay",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  },
+  "bugs": {
+    "url": "https://github.com/Meenachinmay/MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/Meenachinmay/MERN-Stack#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
